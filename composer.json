@@ -1,0 +1,11 @@
+{
+    "name": "wouteradmiraal/php-example",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT"
+}
