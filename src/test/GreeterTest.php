@@ -24,4 +24,13 @@ class GreeterTest extends \PHPUnit\Framework\TestCase {
 			$greeter->greet("Sarah")
 		);
 	}
+
+	public function testGreeterUsesNameAndAge() {
+		$greeter = new Greeter();
+
+		self::assertStringContainsString(
+			"Hello, Cody! (you're 55, I would never have guessed!)",
+			$greeter->greet(age: 55, name: "Cody")
+		);
+	}
 }

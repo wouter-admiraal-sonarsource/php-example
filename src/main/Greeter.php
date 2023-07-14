@@ -2,11 +2,17 @@
 namespace App;
 
 class Greeter {
-	public function greet(string $name = null):string {
-		if($name) {
-			return "Hello, $name!";
+	public function greet(string $name = null, int $age = null): string {
+		$value = "Hello!";
+
+		if ($name) {
+			$value = "Hello, $name!";
 		}
 
-		return "Hello!";
+		if ($age != null) {
+			$value .= " (you're $age, I would never have guessed!)";
+		}
+
+		return $value;
 	}
 }
