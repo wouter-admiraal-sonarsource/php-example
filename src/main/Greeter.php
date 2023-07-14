@@ -7,8 +7,6 @@ class Greeter {
 
 		if ($name) {
 			$value = "Hello, $name!";
-		} else {
-			$value = "Hello, $name!";
 		}
 
 		if ($age != null) {
@@ -18,4 +16,3 @@ class Greeter {
 		return $value;
 	}
 }
-
