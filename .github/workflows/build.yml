@@ -13,6 +13,7 @@ jobs:
       - uses: php-actions/phpunit@v3
         with:
           php_extensions: xdebug
+          version: 9.5
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
         env:
