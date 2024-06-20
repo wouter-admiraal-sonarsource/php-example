@@ -15,4 +15,8 @@ class Greeter {
 
 		return $value;
 	}
+
+	public function insult(): string {
+		return "%&*§%!";
+	}
 }
