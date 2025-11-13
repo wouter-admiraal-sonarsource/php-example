@@ -20,7 +20,7 @@ jobs:
           version: 9.5
           bootstrap: vendor/autoload.php
           configuration: phpunit.xml
-          coverage_clover: "coverage.xml"
+          coverage_clover: _coverage/coverage.xml
         env:
           XDEBUG_MODE: coverage
       - uses: sonarsource/sonarqube-scan-action@master
