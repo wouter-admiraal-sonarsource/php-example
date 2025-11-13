@@ -9,4 +9,8 @@ class Greeter {
 
     return "Hello!";
   }
+
+  public function insult(): string {
+    return "%&*§%!";
+  }
 }
